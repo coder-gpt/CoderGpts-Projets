@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Windows 11</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- BOOT SCREEN -->
+<div id="boot">
+  <h1>Starting Windows</h1>
+  <div class="loader"></div>
+</div>
+
+<!-- LOGIN SCREEN -->
+<div id="login" class="hidden">
+  <h1>Welcome</h1>
+  <button onclick="login()">Sign In</button>
+</div>
+
+<!-- DESKTOP -->
+<div id="desktop" class="hidden">
+  <div id="startMenu">
+    <div class="app" onclick="openWindow()">Notepad</div>
+  </div>
+
+  <div class="window" id="window1">
+    <div class="titlebar">Notepad</div>
+    <div class="content">
+      <textarea></textarea>
+    </div>
+  </div>
+
+  <div id="taskbar">
+    <button onclick="toggleStart()">⊞</button>
+    <div id="clock"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
