@@ -3,3 +3,14 @@
 loadstring(game:HttpGet("https://raw.githubusercontent.com/coder-gpt/CoderGpts-Projets/refs/heads/main/Roblox/Hacks/Executors/VirlyLoader.lua"))()
 
 --- looking for source code? its obfuscated
+
+
+
+
+
+
+
+
+--- VERSION CHECK SYSTEM
+
+Local Version = 1.3
