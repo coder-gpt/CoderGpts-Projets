@@ -1,0 +1,2 @@
+-- This will run on the server when loaded
+print("test")
